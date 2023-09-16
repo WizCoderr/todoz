@@ -18,6 +18,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "in.flaxstudio.todoz",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -25,6 +26,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "33c4025f-48f2-4ba9-a807-e8249f74a60a"
+      }
     }
   }
 }
